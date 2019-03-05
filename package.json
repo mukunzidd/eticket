@@ -1,0 +1,19 @@
+{
+  "name": "eticket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.17"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
